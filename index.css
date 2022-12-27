@@ -1,0 +1,19 @@
+.container-fluid{
+    background-color: #3742fa;
+    font-family: 'Roboto Condensed';
+    height: 60px;
+    margin-top: -8px;
+}
+.user-panel-nav-item:hover{
+    color: black;
+    background-color: #ffa502;
+    
+}
+.btn{
+    color: #fff;
+    font-weight: 900;
+}
+.form-check-input:checked {
+    background-color:  #ffa502;
+   
+}
