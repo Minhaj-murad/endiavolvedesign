@@ -1,20 +1,26 @@
 .container-fluid {
     background-color: #3742fa;
     font-family: 'Roboto Condensed';
-    height: 40px;
+    height: 48px;
+    width: 100%;
     margin-top: -8px;
+}
+
+.collapse {
+    background-color: #3742fa;
+
 }
 
 .user-panel-nav-item:hover {
     color: black;
     background-color: #ffa502;
-    height: 40px;
+    height: 48px;
 }
 
 .btn {
     color: #fff;
     font-weight: 900;
-    height: 40px;
+    height: 48px;
 }
 
 .form-check-input:checked {
@@ -22,35 +28,67 @@
 
 }
 
-.navinput{
+.navinput {
     font-size: 15px;
     height: 20px;
     margin-top: 10px;
     border-radius: 50px;
 }
-.inline{
-    max-width:400px;
-    margin:auto;
+
+.inline {
+    max-width: 400px;
+    margin: auto;
 }
+
 .input-icons i {
     position: absolute;
 }
-  
+
 .input-icons {
     width: 100%;
     margin-bottom: 10px;
 }
-  
+
 .icon {
     margin-top: 2px;
     margin-left: 130px;
     padding: 10px;
     min-width: 40px;
 }
-  
+
 .input-field {
     width: 100%;
     padding: 10px;
     text-align: center;
     margin-bottom: 3px;
 }
+
+.user-panel-footer { 
+    align-items: center;
+    background-color: #3742fa;
+    font-family: 'Roboto Condensed';
+    min-height: 40px;
+    height: auto;
+    width: 100%;
+    color: white; 
+    font-size: 15px;
+    font-weight: bold;
+}
+.user-panel-footer-link{
+  text-decoration: none;
+  color: #fff;
+}
+.user-panel-footer-link:hover{
+    color: #64707b;
+}
+@media screen and (max-width: 600px) {
+    .user-panel-footer {
+        width: 100%;
+        margin-inline: auto;
+        display: inline-block;
+    }
+    .user-panel-footer-img{
+        display: none;
+    }
+}
+
