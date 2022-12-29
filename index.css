@@ -20,8 +20,16 @@
 .btn {
     color: #fff;
     font-weight: 900;
+    font-family: 'Roboto Condensed';
     height: 48px;
     font-size: 15px;
+
+}
+
+.btn:hover {
+    color: black;
+    background-color: #ffa502;
+    height: 40px;
 }
 
 .form-check-input:checked {
@@ -64,32 +72,160 @@
     margin-bottom: 3px;
 }
 
-.user-panel-footer { 
+.user-panel-footer {
     align-items: center;
     background-color: #3742fa;
     font-family: 'Roboto Condensed';
     min-height: 40px;
-    height: auto;
+    height:auto ;
     width: 100%;
-    color: white; 
+    color: white;
     font-size: 15px;
     font-weight: bold;
 }
-.user-panel-footer-link{
-  text-decoration: none;
-  color: #fff;
+
+.user-panel-footer-link {
+    text-decoration: none;
+    color: #fff;
+    border: none;
+    background-color: #3742fa;
+    height: 40px;
+    font-weight: bold;
 }
-.user-panel-footer-link:hover{
-    color: #64707b;
+
+.user-panel-footer-link:hover {
+    color: black;
+    background-color: #ffa502;
 }
+
 @media screen and (max-width: 600px) {
     .user-panel-footer {
         width: 100%;
         margin-inline: auto;
         display: inline-block;
     }
-    .user-panel-footer-img{
+
+    .user-panel-footer-img {
         display: none;
+    }
+    .user-panel-footer {
+      
+        height: auto;
+       
+    }
+
+}
+
+.user-panel-student-coursselection {
+    display: flex;
+    justify-content: space-around;
+}
+.user-panel-students-teacher-details{
+    width: 200px;
+    margin-right: 60px;
+}
+@media screen and (max-width: 600px) {
+
+    .user-panel-student-coursselection {
+        display: inline-block;
+        align-items: center;
+
+    }
+
+    .user-panel-student-box-left {
+        margin-top: 30px;
+    }
+    .user-panel-student-connect-btn{
+        margin-left: 20px;
+    }
+    .user-panel-students-teacher-details{
+        width: 100px;
+        margin-right: 20px;
     }
 }
 
+.user-panel-student-box {
+    font-family: 'Roboto Condensed';
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.user-panel-student-heading {
+    text-align: center;
+    font-size: 22px;
+    color: #41464b;
+    margin-bottom: 30px;
+}
+
+.user-panel-student-box-left {
+    margin-left: 30px;
+}
+
+.user-panel-student-box-heding {
+    font-size: 18px;
+    color: #41464b;
+    text-align: center;
+}
+
+.user-panel-student-box-selector-heding {
+    font-size: 20px;
+    margin-right: 40px;
+    margin-top: 5px;
+    color: #41464b;
+}
+
+.user-panel-student-box-selector-heding2 {
+    font-size: 20px;
+    margin-right: 22px;
+    margin-top: 5px;
+    color: #41464b;
+}
+
+.user-panel-student-box-selector {
+    width: 100%;
+    height: 15px;
+
+}
+
+.user-panel-student-box-courses {
+    width: 100%;
+    display: flex;
+    margin-inline: auto;
+    margin-top: 20px;
+}
+
+.user-panel-student-box-courses-search {
+    font-style: italic;
+    color: #64707b;
+    font-size: 15px;
+}
+
+.user-panel-student-connect-btn {
+    text-decoration: none;
+    padding: 6px;
+    border: none;
+    border-radius: 10px;
+    background-color: #3742fa;
+    font-size: 15px;
+    color: #fff;
+}
+
+.user-panel-student-connect-btn:hover {
+    color: black;
+    background-color: #ffa502;
+}
+
+.user-panel-courses {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+}
+
+.user-panel-student-teacher-img {
+    border-radius: 10px;
+    height: 80px;
+    width: 80px;
+}
