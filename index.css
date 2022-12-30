@@ -11,6 +11,11 @@
 
 }
 
+.table-container {
+    height: 90vh;
+    margin: 40px;
+}
+
 .user-panel-nav-item:hover {
     color: black;
     background-color: #ffa502;
@@ -29,12 +34,19 @@
 .btn:hover {
     color: black;
     background-color: #ffa502;
-    height: 40px;
+    height: 48px;
 }
 
 .form-check-input:checked {
     background-color: #ffa502;
+    margin-top: 8px;
 
+
+}
+
+.user-panel-searchbar {
+    display: flex;
+    justify-content: center;
 }
 
 .navinput {
@@ -42,6 +54,8 @@
     height: 20px;
     margin-top: 10px;
     border-radius: 50px;
+    border: none;
+    outline: none;
 }
 
 .inline {
@@ -59,11 +73,15 @@
 }
 
 .icon {
-    margin-top: 2px;
-    margin-left: 130px;
-    padding: 10px;
-    min-width: 40px;
+    margin-top: 10px;
+    padding: 3px;
+    border-radius: 50px;
+    margin-left: -4px;
+
+    background-color: #fff;
+
 }
+
 
 .input-field {
     width: 100%;
@@ -73,11 +91,13 @@
 }
 
 .user-panel-footer {
+    display: flex;
+    justify-content: space-around;
     align-items: center;
     background-color: #3742fa;
     font-family: 'Roboto Condensed';
     min-height: 40px;
-    height:auto ;
+    height: auto;
     width: 100%;
     color: white;
     font-size: 15px;
@@ -98,7 +118,7 @@
     background-color: #ffa502;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     .user-panel-footer {
         width: 100%;
         margin-inline: auto;
@@ -108,22 +128,33 @@
     .user-panel-footer-img {
         display: none;
     }
+
     .user-panel-footer {
-      
+
         height: auto;
-       
+
     }
 
+    .table-container {
+        height: auto;
+        margin: auto;
+    }
+
+    .user-panel-searchbar {
+        margin-left: -28px;
+    }
 }
 
 .user-panel-student-coursselection {
     display: flex;
     justify-content: space-around;
 }
-.user-panel-students-teacher-details{
+
+.user-panel-students-teacher-details {
     width: 200px;
     margin-right: 60px;
 }
+
 @media screen and (max-width: 600px) {
 
     .user-panel-student-coursselection {
@@ -135,10 +166,12 @@
     .user-panel-student-box-left {
         margin-top: 30px;
     }
-    .user-panel-student-connect-btn{
+
+    .user-panel-student-connect-btn {
         margin-left: 20px;
     }
-    .user-panel-students-teacher-details{
+
+    .user-panel-students-teacher-details {
         width: 100px;
         margin-right: 20px;
     }
@@ -228,4 +261,8 @@
     border-radius: 10px;
     height: 80px;
     width: 80px;
+}
+
+.table-row {
+    border-top: 1px solid black;
 }

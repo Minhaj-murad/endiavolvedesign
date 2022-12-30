@@ -1,0 +1,62 @@
+/*================================================================================================================
+
+        DEFAULT VALUES:
+
+        Font Family                 :   "Roboto Condensed", sans-serif
+        
+        Greenish Blue               :   #3742fa or rgb(55, 66, 250)    (buttons, Icons, Links, lines & Backgrounds)
+        Steel Gray                  :   #41464b     (Headings)
+        Blue Bayoux                 :   #64707b     (paragraphs)
+        white                       :   #fff        (text with black backgrounds)
+        Black                       :   #000        ()
+        hover                       :   #ffa502 or rgb(255, 165, 2)     (hover)
+
+=================================================================================================================*/
+
+
+body {
+    font-family: 'Roboto Condensed';
+
+}
+
+.container-fluid {
+    background-color: #3742fa;
+    font-family: 'Roboto Condensed';
+    height: 48px;
+    width: 100%;
+    margin-top: -8px;
+}
+
+.table-container {
+    height: 90vh;
+}
+
+.btn {
+    color: #fff;
+    font-weight: 900;
+    font-family: 'Roboto Condensed';
+    height: 48px;
+    font-size: 15px;
+    background-color: #3742fa;
+
+}
+
+.btn:hover {
+    color: black;
+    background-color: #ffa502;
+    height: 48px;
+    font-size: 15px;
+
+}
+
+.tutor-panel-table-data {
+    color: #64707b;
+}
+
+.tutor-panel-table-head {
+    font-size: 15px;
+}
+
+.tutor-panel-table-data:hover {
+    color: #ffa502;
+}
