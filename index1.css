@@ -28,7 +28,7 @@ body {
 }
 
 .table-container {
-    height: 90vh;
+    height: 80vh;
 }
 
 .btn {
@@ -59,4 +59,13 @@ body {
 
 .tutor-panel-table-data:hover {
     color: #ffa502;
+}
+
+/* Customization section */
+.tutor-panel-table-customization-data{
+    color: #64707b;
+}
+.course-selected{
+    width: 400px;
+    margin-inline: auto;
 }
