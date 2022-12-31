@@ -175,6 +175,9 @@
         width: 100px;
         margin-right: 20px;
     }
+    .tutor-panel-customization-options{
+        width: 50px;
+    }
 }
 
 .user-panel-student-box {
