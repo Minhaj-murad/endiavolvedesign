@@ -178,6 +178,13 @@
     .tutor-panel-customization-options{
         width: 50px;
     }
+    .user-panel-student-topic{
+        margin-left: 10px;
+        margin-top: 40px;
+    }
+    .col{
+        margin-top: 40px;
+    }
   
 }
 
