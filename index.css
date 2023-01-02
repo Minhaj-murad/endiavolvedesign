@@ -155,7 +155,7 @@
     margin-right: 60px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
 
     .user-panel-student-coursselection {
         display: inline-block;
@@ -178,6 +178,7 @@
     .tutor-panel-customization-options{
         width: 50px;
     }
+  
 }
 
 .user-panel-student-box {
@@ -268,4 +269,8 @@
 
 .table-row {
     border-top: 1px solid black;
+}
+
+.user-panel-batches{
+    font-size: 25px;
 }

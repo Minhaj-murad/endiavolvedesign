@@ -75,3 +75,18 @@ body {
     align-items: center;
     font-weight: bold;
 }
+.user-panel-student-sections{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.user-panel-student-sections-div{
+    margin-top: 40px;
+}
+.video-headlines{
+    font-size: 20px;
+    text-align: center;
+}
+.user-panel-student-videos{
+    margin-top: 40px;
+}
