@@ -118,3 +118,9 @@ body {
 .video-headlines{
     margin-top: 20px;
 }
+.nav-link.active {
+    font-weight:bold;
+    background-color: transparent;
+   
+}
+
