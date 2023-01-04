@@ -143,6 +143,16 @@
     .user-panel-searchbar {
         margin-left: -28px;
     }
+    .topicname{
+        width: auto;
+        margin-top: 40px;
+        
+    }
+    .topichead{
+        font-size: 15px;
+       
+        margin-left:auto;
+    }
 }
 
 .user-panel-student-coursselection {
