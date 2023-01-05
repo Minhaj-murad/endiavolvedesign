@@ -291,3 +291,8 @@
 .user-panel-batches{
     font-size: 25px;
 }
+.dropdown-video{
+    text-decoration: none;
+    color: #3742fa;
+    font-weight: 900;
+}
