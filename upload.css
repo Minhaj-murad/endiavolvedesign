@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: 'Roboto Condensed';
+
+}
+
+.btn {
+    color: #fff;
+    background-color: #3742fa;
+}
+
+.btn:hover {
+    color: black;
+    background-color: #ffa502;
+
+}
+
+.container {
+    min-height: 80vh;
+    margin-top: 20px;
+}
+
+.upload {
+    color: #fff;
+    background-color: #3742fa;
+}
+
+.upload:hover {
+    color: black;
+    background-color: #ffa502;
+    cursor: pointer;
+
+}
+
+.upload-icon {
+    width: 100px;
+    height: 100px;
+    margin-inline: auto;
+}
+
+.progress-bar {
+    background-color: rgb(53, 108, 180);
+
+}
+
+.progresssection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left-section {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.processingtext,
+.spinner {
+    color: #2f4575;
+}
+
+.progress-bar {
+    padding-block: 5px;
+}
+
+.cross-button {
+    color: black;
+    font-weight: 900;
+    height: 30px;
+    background-color: rgb(156, 156, 156);
+
+    padding-inline: 15px;
+    border-left: 3px solid rgb(10, 71, 152);
+
+
+}
+
+.video.background {
+    background: black
+}
+
+.video-sec {
+    color: aliceblue;
+    width: 100%;
+    margin-top: 20px;
+    padding-inline: 10px;
+    height: 200px;
+    background-color: black;
+
+}
+
+.progress {
+    margin-right: auto;
+    width: 100%;
+}

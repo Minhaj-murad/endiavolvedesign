@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link href='https://fonts.googleapis.com/css?family=Roboto Condensed' rel='stylesheet'>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/9d24440128.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/9d24440128.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./upload.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto Condensed' rel='stylesheet'>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/CDNSFree2/Plyr/plyr.css" />
+</head>
+
+<body>
+  <div class="container bg-gray-200 rounded-lg">
+    <div class="row ">
+      <div class="col-12 col-md-3 col-lg-3  ">
+       <div class="video-sec flex justify-center items-center">
+       
+        <h1>Uploading Video... </h1> <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+       </div>
+      </div>
+      <div class="col-12 col-md-8 col-lg-9  ">
+        <div class="container ">
+          <div class="row">
+            <div class="col-12 ">
+              
+              <div class="progresssection mt-4 mb-4">
+                <div class="progress bg-white " style="height: 30px;">
+                  <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0"
+                    aria-valuemax="100">Uploaded....25%</div>
+                </div>
+
+                <span> <button class="cross-button btn"><i class="fa-solid fa-x"></i></button> </span>
+
+
+
+
+
+
+
+
+              </div>
+            </div>
+
+            <div class="col-12 col-lg-6 ">
+              <div class="div mt-2 text-lg font-semibold text-gray-900">
+
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                  placeholder=" Title ">
+
+              </div>
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <div class="div mt-2">
+
+                <select class="form-select " aria-label="Default select example">
+                  <option selected class=" text-lg text-gray-500">Playlists</option>
+                  <option value="1" class="text-lg  text-gray-900">Electrical Power Engineering 1</option>
+                  <option value="2" class="text-lg  text-gray-900">Electrical Power Engineering 2</option>
+                  <option value="3" class="text-lg  text-gray-900">Electrical Power Engineering 3</option>
+                  <option value="4" class="text-lg  text-gray-900">Electrical Power Engineering 4</option>
+                  <option value="5" class="text-lg  text-gray-900">Electrical Power Engineering 5</option>
+                  <option value="6" class="text-lg  text-gray-900">Electrical Power Engineering 6</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div class="div mt-2">
+                <select class="form-select " aria-label="Default select example">
+                  <option selected class=" text-lg text-gray-500"> Branches</option>
+                  <option value="1" class="text-lg  text-gray-900">Electrical Engineering</option>
+                  <option value="2" class="text-lg  text-gray-900">Computer Science and Engineering</option>
+                  <option value="3" class="text-lg  text-gray-900">Civil Engineering</option>
+                  <option value="4" class="text-lg  text-gray-900">Architecture Engineering</option>
+                  <option value="5" class="text-lg  text-gray-900">Mechanical Engineering</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div class="div mt-2">
+                <select class="form-select" aria-label="Default select example">
+                  <option selected class=" text-lg text-gray-500"> Semester</option>
+                  <option value="1">First</option>
+                  <option value="2">Second</option>
+                  <option value="3">Third</option>
+                  <option value="4">Fourth</option>
+                  <option value="5">Fifth</option>
+                  <option value="6">Sixth</option>
+                  <option value="7">Seventh</option>
+                  <option value="8">Eight</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="col-12 ">
+              <div class=" w-full  mt-4">
+
+
+
+                <textarea id="message" rows="4"
+                  class="block p-2.5 w-full text-sm text-black  rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 "
+                  placeholder="Write your Video Description here..."></textarea>
+                 <div class="flex justify-end mt-2">
+                  <button class="btn btn-sm font-semibold">Submit</button>
+                 </div>
+
+              
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+  </div>
+   
+
+
+
+
+
+  <script src="./upload.js"></script>
+
+
+</body>
+
+</html>
